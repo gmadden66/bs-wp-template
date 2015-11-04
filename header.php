@@ -2,7 +2,7 @@
 /**
  *  Theme: 
  *  File: header.php
- *  Author: the Guaranteed SEO team
+ *  Author: Graham Madden
  */
 ?>
 <!DOCTYPE html>
