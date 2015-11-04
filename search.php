@@ -2,7 +2,7 @@
 /**
  *  Theme: Lofa Sofa Custom Theme
  *  File: searchpage.php
- *  Author: the Guaranteed SEO team
+ *  Author: Graham Madden
  */
 
 get_header(); ?>
