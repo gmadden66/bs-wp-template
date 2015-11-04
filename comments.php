@@ -2,7 +2,7 @@
 /**
  *  Theme: 
  *  File: comments.php
- *  Author: the Guaranteed SEO team
+ *  Author: Graham Madden
  */
  ?>
  
