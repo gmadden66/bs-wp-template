@@ -2,7 +2,7 @@
 /**
  *  Theme: 
  *  File: functions.php
- *  Author: the Guaranteed SEO team
+ *  Author: Graham Madden
  */
 
  // add jquery in no conflict mode
