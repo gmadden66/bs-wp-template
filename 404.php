@@ -2,7 +2,7 @@
 /**
  *  Theme: 
  *  File: 404.php
- *  Author: the Guaranteed SEO team
+ *  Author: Graham Madden
  */
 
 get_header(); ?>
