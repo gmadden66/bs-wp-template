@@ -1,0 +1,48 @@
+/*
+Theme Name: 
+Author: the Guaranteed SEO team
+Author URI: http://www.guaranteedseo.com/
+Description: 
+Version: 1.0
+*/
+
+#wrapper {padding: 0;}
+.row {margin:0;}
+.inner {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.alignright {
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+.aligncenter {
+	margin: 15px auto;
+}
+
+/*-------------------- HEADER ----------------------*/
+
+
+/*-------------------- HOME PAGE ----------------------*/
+
+
+/*-------------------- INTERNAL PAGE ----------------------*/
+
+
+/*-------------------- FOOTER ----------------------*/
+
+/*-------------------- MEDIA QUERIES ----------------------*/
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 768px) { 
+
+
+}
