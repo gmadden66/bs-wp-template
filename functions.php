@@ -5,7 +5,7 @@
  *  Author: the Guaranteed SEO team
  */
 
- // add jquery in no conflict mode
+ // enqueue scripts in their proper locations
 add_action( 'wp_enqueue_scripts', 'load_jquery' );
 function load_jquery() {
 	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri().'/css/bootstrap.min.css' );
@@ -35,12 +35,14 @@ add_filter( 'wpcf7_load_css', '__return_false' );
 //     }
 // }
 
+// register menus
 if(function_exists('register_nav_menus')):
     register_nav_menus(array(
         'main' => 'Main Navigation'
     ));
 endif;
 
+// enable featured images
 add_theme_support('post-thumbnails');
 
 // Add GSEO custom htaccess modifications
@@ -70,7 +72,7 @@ function site_url_script() {
 <?php
 }
 
-
+// remove query strings from all files
 function _remove_script_version( $src ){
 $parts = explode( '?ver', $src );
 return $parts[0];
@@ -78,6 +80,7 @@ return $parts[0];
 add_filter( 'script_loader_src', '_remove_script_version', 15, 1 );
 add_filter( 'style_loader_src', '_remove_script_version', 15, 1 );
 
+// function to debug arrays better than print_r
 function debug($var) {
     $bt = debug_backtrace();
     $caller = array_shift($bt);
